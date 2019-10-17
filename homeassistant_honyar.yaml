@@ -1,0 +1,67 @@
+switch:
+  - platform: mqtt
+    name: zong_paicha1
+    state_topic: "hy/zong_paicha/status/s1"
+    command_topic: "hy/zong_paicha/set/s1"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+  - platform: mqtt
+    name: zong_paicha2
+    state_topic: "hy/zong_paicha/status/s2"
+    command_topic: "hy/zong_paicha/set/s2"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+  - platform: mqtt
+    name: zong_paicha3
+    state_topic: "hy/zong_paicha/status/s3"
+    command_topic: "hy/zong_paicha/set/s3"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+  - platform: mqtt
+    name: zong_paicha4
+    state_topic: "hy/zong_paicha/status/s4"
+    command_topic: "hy/zong_paicha/set/s4"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+
+
+  - platform: mqtt
+    name: er_paicha1
+    state_topic: "hy/er_paicha/status/s1"
+    command_topic: "hy/er_paicha/set/s1"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+  - platform: mqtt
+    name: er_paicha2
+    state_topic: "hy/er_paicha/status/s2"
+    command_topic: "hy/er_paicha/set/s2"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+  - platform: mqtt
+    name: er_paicha3
+    state_topic: "hy/er_paicha/status/s3"
+    command_topic: "hy/er_paicha/set/s3"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+  - platform: mqtt
+    name: er_paicha4
+    state_topic: "hy/er_paicha/status/s4"
+    command_topic: "hy/er_paicha/set/s4"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
