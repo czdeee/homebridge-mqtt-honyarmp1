@@ -1,0 +1,31 @@
+{
+    "bridge": {
+        "name": "Honyar",
+        "username": "88:00:00:00:00:01",
+        "port": 59000,
+        "pin": "123-45-678"
+    },
+    "accessories": [
+    	{
+            "accessory": "honyarmp1",
+            "name": "鸿雁排插",
+ 	    	"model":"MP1",
+ 	    	"manufacturer":"Honyar",
+ 	    	"serial":"czde",
+            "url": "mqtt://192.168.1.5:1883",
+			"username": "mqtt",
+            "password": "mqtt",
+ 			"topics": {
+				"stateGet":  "hy/er_paicha/state",
+				"statusGet1": "hy/er_paicha/status/s1",
+ 				"statusSet1": "hy/er_paicha/set/s1",
+				"statusGet2": "hy/er_paicha/status/s2",
+ 				"statusSet2": "hy/er_paicha/set/s2",
+				"statusGet3": "hy/er_paicha/status/s3",
+ 				"statusSet3": "hy/er_paicha/set/s3",
+				"statusGet4": "hy/er_paicha/status/s4",
+ 				"statusSet4": "hy/er_paicha/set/s4"
+ 			}
+    	}
+    ]
+}
